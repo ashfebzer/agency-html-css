@@ -44,8 +44,12 @@ h3 {
     padding-right: 20px;
 }
 
-ul {
+.navmenu ul {
     margin: 0;
+}
+
+ul {
+    padding: 0;
 }
 
 li {
@@ -65,26 +69,38 @@ li {
     text-align: center;
 }
 
-.services p {
+.service-list {
+    height: 400px;
+    margin-left: 65px
+}
+
+
+.service-list ul {
+    padding-right: 10px;
+}
+
+
+.service-1 {
+    width: 250px;
+    float: left;
     text-align: center;
 }
 
-.service-1 {
-    width: 300px;
-    float: left;
-}
-
 .service-2 {
-    width: 300px;
+    width: 250px;
     float: left;
+    text-align: center;
 }
 
 .service-3 {
-    width: 300px;
+    width: 250px;
     float: left;
+    text-align: center;
 }
 
 .service-4 {
-    width: 300px;
-    float: left;
+    width: 250px;
+    float:left;
+    text-align: center;
+    
 }

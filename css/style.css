@@ -1,0 +1,55 @@
+html {
+    background: #f4f4f4;
+}
+
+body {
+    background-color: white;
+    margin: 0 auto;
+    width: 1200px;
+    font-family: sans-serif, hevetica, Arial;
+    box-shadow: 12px 0 15px -4px rgba(31, 73, 125, 0.8), -12px 0 8px -4px rgba(31, 73, 125, 0.8);
+}
+
+a {
+    text-decoration: none;
+    color: #666666;
+}
+/* Header - Menu */
+
+#logo {
+    float: left;
+    font-size: 26px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.nav {
+    height: 50px;
+    padding-top: 25px;
+    background-color: #fff;
+    box-shadow: 0px 0px 9px 3px rgba(41,41,41,.25);
+}
+
+#logo p {
+    margin: 0; 
+ }
+
+.navmenu {
+    float: right;
+    padding-right: 20px;
+}
+
+ul {
+    margin: 0;
+}
+
+li {
+    display: inline;
+    margin: 0;
+    padding-right: 20px;
+}
+
+
+
+
+

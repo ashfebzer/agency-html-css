@@ -19,6 +19,10 @@ h3 {
     color: #7f7f7f;
 }
 
+* {
+    box-sizing: border-box;
+  }
+
 /* Header - Menu */
 
 #logo {
@@ -29,7 +33,7 @@ h3 {
 }
 
 .nav {
-    height: 50px;
+    height: 70px;
     padding-top: 25px;
     background-color: #fff;
     box-shadow: 0px 0px 9px 3px rgba(41,41,41,.25);
@@ -69,38 +73,110 @@ li {
     text-align: center;
 }
 
-.service-list {
-    height: 400px;
-    margin-left: 65px
+.row {
+    width: 1300px;
+    margin: 0 70px;
 }
 
-
-.service-list ul {
-    padding-right: 10px;
-}
-
-
-.service-1 {
-    width: 250px;
+.column {
+    text-align: center;
     float: left;
-    text-align: center;
-}
+    width: 20%;
+    padding: 0 20px;
+    height: 300px;
+  }
 
-.service-2 {
-    width: 250px;
-    float: left;
-    text-align: center;
-}
-
-.service-3 {
-    width: 250px;
-    float: left;
-    text-align: center;
-}
-
-.service-4 {
-    width: 250px;
-    float:left;
-    text-align: center;
+  .column p {
+    color: #7f7f7f;
+    line-height: 30px;
     
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  h1:after {
+    content:' ';
+    position: absolute;
+    display:block;
+    width: 20px;
+  	margin: 20px 43%;
+    border:2px solid #71BC42;
+    border-radius:4px;
+    
+}
+
+.split {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    
+}
+
+.split img {
+    width: 550px;
+}
+
+.half:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.split h1:after {
+  display: none;
+}
+
+.split p {
+    color: #7f7f7f;
+    line-height: 30px;
+}
+
+
+.product {
+    text-align: center;
+    margin-top: 10px;
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+}
+
+.product p {
+    color: #7f7f7f;
+    line-height: 30px;
+    padding: 0 20px;
+}
+
+.our-products:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.signup {
+    padding-top: 25px;
+    text-align: center;
+    height: 200px;
+    background-color: #71bc42;
+}
+
+.signup h1 {
+    color: white;
+}
+
+.signup p {
+    color: white;
+}
+
+footer {
+    height: 200px;
+    background-color: #343a40;
+}
+
+footer p {
+    padding: 25px 0;
+    text-align: center;
 }

@@ -172,11 +172,12 @@ li {
 }
 
 footer {
-    height: 200px;
+    height: 100px;
     background-color: #343a40;
 }
 
 footer p {
+    color: white;
     padding: 25px 0;
     text-align: center;
 }

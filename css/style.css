@@ -203,6 +203,10 @@ h1:after {
     width: 550px;
 }
 
+.half {
+    margin-top: 25px;
+}
+
 .half:after {
     content: "";
     display: table;
@@ -222,7 +226,7 @@ form {
     margin-top: 25px;
 }
 
-.services.container.testimonial  p {
+.services.container.about  p {
     margin-top: 30px;
     color: #7f7f7f;
     line-height: 25px;

@@ -82,6 +82,16 @@ h3 {
     
 }
 
+.full-width {
+    background-color: #7f7f7f;
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+  }
+
 .nav {
     height: 70px;
     padding-top: 25px;
@@ -114,10 +124,10 @@ li {
 
 /* HEADER IMAGE */
 
-.head-image {
-    margin: 0 auto;
-    background-color: tomato;
+.head-img {
+    text-align: center;
 }
+
 
 .services {
     padding: 50px;

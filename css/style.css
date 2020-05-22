@@ -59,10 +59,6 @@ a {
     color: #666666;
 }
 
-h3 {
-    color: #7f7f7f;
-}
-
 * {
     box-sizing: border-box;
   }
@@ -125,16 +121,23 @@ li {
 h1 {
     font-size: 30px;
     font-weight: bold;
+    margin-top: 15px;
 }
 
 h2 {
     font-size: 20px;
-    font-weight: 600;  
+    font-weight: 600;
+    margin-top: 15px;  
+    
 }
 
 h3 {
-    font-size: 15px;
-    font-weight: 300; 
+    font-size: 17px;
+    color: #7f7f7f;
+}
+
+p {
+    margin-top: 15px;
 }
 
 /* HEADER IMAGE */
@@ -172,6 +175,7 @@ h1:after {
     content:' ';
     display:block;
     margin: 0 auto;
+    margin-top: 15px;
     width: 20px;
     border:2px solid #71BC42;
     border-radius:4px;
@@ -242,12 +246,11 @@ h1:after {
 
 footer {
 
-    height: 100px;
     background-color: #343a40;
 }
 
 footer p {
-
+    margin: 0;
     color: white;
     padding: 25px 0;
     text-align: center;

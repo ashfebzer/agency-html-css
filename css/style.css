@@ -140,7 +140,17 @@ p {
     margin-top: 15px;
 }
 
+img {
+    display: block;
+    margin: 0 auto;
+}
+
 /* HEADER IMAGE */
+
+.head-img {
+    background-color: #7f7f7f;
+
+}
 
 
 .services {

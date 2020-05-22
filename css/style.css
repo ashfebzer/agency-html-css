@@ -96,7 +96,7 @@ h3 {
     height: 70px;
     padding-top: 25px;
     background-color: #fff;
-    box-shadow: 0px 0px 9px 3px rgba(41,41,41,.25);
+    /* box-shadow: 0px 0px 9px 3px rgba(41,41,41,.25); */
 }
 
 #logo p {
@@ -123,10 +123,6 @@ li {
 }
 
 /* HEADER IMAGE */
-
-.head-img {
-    text-align: center;
-}
 
 
 .services {

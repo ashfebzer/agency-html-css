@@ -208,6 +208,16 @@ h1:after {
     line-height: 30px;
 }
 
+form {
+    margin-top: 25px;
+}
+
+.services.container.testimonial  p {
+    margin-top: 30px;
+    color: #7f7f7f;
+    line-height: 25px;
+
+}
 
 .product {
     text-align: center;

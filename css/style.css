@@ -1,11 +1,55 @@
-html {
-    background: #f4f4f4;
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 
 body {
     background-color: white;
     margin: 0 auto;
-    width: 1200px;
     font-family: sans-serif, hevetica, Arial;
     box-shadow: 12px 0 15px -4px rgba(31, 73, 125, 0.8), -12px 0 8px -4px rgba(31, 73, 125, 0.8);
 }
@@ -30,6 +74,12 @@ h3 {
     font-size: 26px;
     font-weight: bold;
     padding-left: 20px;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    
 }
 
 .nav {
@@ -64,8 +114,9 @@ li {
 
 /* HEADER IMAGE */
 
-.head-img {
-    margin-top: 0px;
+.head-image {
+    margin: 0 auto;
+    background-color: tomato;
 }
 
 .services {
@@ -86,24 +137,23 @@ li {
     height: 300px;
   }
 
-  .column p {
+.column p {
     color: #7f7f7f;
     line-height: 30px;
     
-  }
+}
 
-  .row:after {
+.row:after {
     content: "";
     display: table;
     clear: both;
-  }
+}
 
-  h1:after {
+h1:after {
     content:' ';
-    position: absolute;
     display:block;
+    margin: 0 auto;
     width: 20px;
-  	margin: 20px 35%;
     border:2px solid #71BC42;
     border-radius:4px;
     
@@ -172,11 +222,13 @@ li {
 }
 
 footer {
+
     height: 100px;
     background-color: #343a40;
 }
 
 footer p {
+
     color: white;
     padding: 25px 0;
     text-align: center;

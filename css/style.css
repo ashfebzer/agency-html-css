@@ -318,3 +318,20 @@ input[type=text], input[type=email], input[type=tel], textarea {
     display: inline-block;
     border: none;
     background: #f1f1f1;
+}
+
+/* Contact Information */
+.cont-info {
+    background: #f1f1f1;
+    border-bottom:8px solid #fff;
+    padding: 10px 10px;
+
+}
+
+.cont-info h2 {
+    margin-top: 0;
+}
+
+.cont-info p {
+    line-height: 25px;
+}

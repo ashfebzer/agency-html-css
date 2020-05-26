@@ -369,6 +369,11 @@ input[type=text], input[type=email], input[type=tel], textarea {
 }
 
 /* Contact Information */
+
+form label {
+    color: #7f7f7f;
+}
+
 .cont-info {
     margin-top: 25px;
     background: #f1f1f1;

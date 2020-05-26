@@ -105,12 +105,51 @@ a {
 }
 
 .navmenu ul li a{
+    padding: 9px 15px;
     text-decoration: none;
     color: #666666;
 }
 
+/* Navmenu */
+
 .navmenu ul li a:hover {
     color: #71BC42;
+}
+
+.navmenu .home {
+    color: white;
+    background-color: #71BC42;
+}
+
+.navmenu .home:hover {
+    background-color: white;
+}
+
+.navmenu .abt {
+    color: white;
+    background-color: #71BC42;
+}
+
+.navmenu .abt:hover {
+    background-color: white;
+}
+
+.navmenu .serv {
+    color: white;
+    background-color: #71BC42;
+}
+
+.navmenu .serv:hover {
+    background-color: white;
+}
+
+.navmenu .cnt {
+    color: white;
+    background-color: #71BC42;
+}
+
+.navmenu .cnt:hover {
+    background-color: white;
 }
 
 .navmenu ul {

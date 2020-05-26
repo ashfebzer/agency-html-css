@@ -378,7 +378,7 @@ input[type=text], input[type=email], input[type=tel], textarea {
 }
 
 .cont-col p {
-    color: ;    
+    color:#7f7f7f ;    
 }
 
 .cont-info h2 {
@@ -434,4 +434,5 @@ input[type=text], input[type=email], input[type=tel], textarea {
 .our-products {
     margin-bottom: 50px;
 }
+
 

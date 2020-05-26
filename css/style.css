@@ -104,6 +104,15 @@ a {
     padding-right: 20px;
 }
 
+.navmenu ul li a{
+    text-decoration: none;
+    color: #666666;
+}
+
+.navmenu ul li a:hover {
+    color: #71BC42;
+}
+
 .navmenu ul {
     margin: 0;
 }
@@ -256,7 +265,7 @@ form {
 .signup {
     padding-top: 25px;
     text-align: center;
-    height: 200px;
+    height: 240px;
     background-color: #71bc42;
 }
 
@@ -296,7 +305,7 @@ footer p {
 
   /* Contact form Button style */
 .sendbtn {
-  background-color: #4CAF50;
+  background-color: #71bc42;
   color: white;
   padding: 16px 20px;
   margin: 8px 0;
@@ -322,10 +331,15 @@ input[type=text], input[type=email], input[type=tel], textarea {
 
 /* Contact Information */
 .cont-info {
+    margin-top: 25px;
     background: #f1f1f1;
-    border-bottom:8px solid #fff;
+    border-bottom:5px solid #fff;
     padding: 10px 10px;
 
+}
+
+.cont-col p {
+    color: ;    
 }
 
 .cont-info h2 {
@@ -333,7 +347,16 @@ input[type=text], input[type=email], input[type=tel], textarea {
 }
 
 .cont-info p {
+    color: #7f7f7f;
     line-height: 25px;
+}
+
+.cont-col.one p {
+    color: #7f7f7f;   
+}
+
+.cont-col p {
+    color: #7f7f7f;
 }
 
 
@@ -341,14 +364,12 @@ input[type=text], input[type=email], input[type=tel], textarea {
 .signup input[type=email] {
     width: 30%;
     padding: 10px;
-    display: inline-block;
-    border: none;
     background: #f1f1f1;
 }
 
 .signupbtn {
-  background-color: #4CAF50;
-  color: white;
+  background-color: #343a40;
+  color: #fff;
   border: none;
   cursor: pointer;
   padding: 10px 20px;
@@ -358,6 +379,20 @@ input[type=text], input[type=email], input[type=tel], textarea {
 .signupbtn:hover {
     opacity: 1;
   }
+
+  /* Testimonial */
+
+.services.testimonial p {
+    line-height: 25px;
 }
 
+.services.testimonial {
+    background-color: #343a40 ;
+    line-height: 25px;
+    color: #fff;
+}
+
+.our-products {
+    margin-bottom: 50px;
+}
 

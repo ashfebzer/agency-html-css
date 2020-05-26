@@ -279,3 +279,28 @@ footer p {
     padding: 25px 0;
     text-align: center;
 }
+
+/* contact form */
+.cont-col {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+
+
+.contactform:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.sendbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}

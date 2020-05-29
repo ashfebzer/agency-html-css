@@ -492,6 +492,22 @@ body {
     border-radius:4px;
 }
 
+h1:after {
+    content:' ';
+    display:block;
+    margin: 0 auto;
+    margin-top: 5%;
+    width: 10%;
+    border:5px solid #71BC42;
+    border-radius:4px;
+    
+}
+
+.signup h1:after {
+    display: none;
+    
+}
+
 .navmenu {
     position: relative;
     width: 100%;
@@ -508,15 +524,10 @@ body {
 }
 
 .row  p {
-    font-size: 2.5em;
+    
     margin: 30px;
     color: #7f7f7f;
     line-height: 50px;
-}
-
-h2 {
-    padding: 2% 0;
-    font-size: 3em;
 }
 
 h1 {
@@ -524,17 +535,46 @@ h1 {
     font-size: 4em;
 }
 
+h2 {
+    padding: 2% 0;
+    font-size: 3em;
+}
+
+h3 {
+    font-size: 2.5em;
+}
+
+p {
+    font-size: 2.5em;
+    
+}
+
 .column {
     text-align: none;
     float: none;
     width: 100%; 
-    height: 300px;
+    height: 400px;
+}
+
+.column img {
+    margin-top: 10%;
+    width: 20%;
+    height: auto;
 }
 
 .split {
     float: none;
     width: 100%;
     padding: 0;
+}
+
+.split img {
+    width: 100%;
+}
+
+.split p {
+    color: #7f7f7f;
+    line-height: 1.5em;
 }
 
 .product {
@@ -550,9 +590,7 @@ h1 {
     padding: 0 10%;
 }
 
-.split img {
-    width: 100%;
-}
+
 
 .cont-col {
     float: none;
@@ -563,16 +601,82 @@ h1 {
 .signup {
     padding-top: 25px;
     text-align: center;
-    height: 300px;
+    height: 25em;
     background-color: rgb(113, 188, 66);
 }
 
+.serv {
+    padding: 10%;
+    background: #f4f3f4;
+    text-align: center;
+}
+
+.split h3 {
+    margin-top: 15%;
+}
+
+.split.four  img {
+    margin-top: 15%;
+}
+
+ div.split.two::after {
+    content:' ';
+    display:block;
+    margin: 0 auto;
+    margin-top: 15%;
+    width: 10%;
+    border:5px solid #71BC42;
+    border-radius:4px;
+    
+}
 
 /* Testimonials */
 
+.services.testimonial {
+    height: 550px;
+}
 
+services.testimonial h3 {
+    margin-top: none;
+}
 
+.services.testimonial  p {
+    font-style: italic;
+    line-height: 50px;
+}
 
+/* PRODUCTS */
+
+.product {
+    padding: 40px;
+}
+
+.services {
+    margin-top: 10%;
+}
+
+.our-products.container {
+    padding-bottom: 15%;
+}
+
+.our-products.container p {
+    line-height: 50px;
+    padding: 0 8%;
+}
+
+.our-products.container img {
+    width: 100%;
+}
+
+}
+
+/* ----------
+Tablet 
+------------- */
+
+@media only screen and (max-device-width: 1920px) {
+
+    
 
 
 

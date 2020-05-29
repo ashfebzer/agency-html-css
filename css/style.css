@@ -503,7 +503,6 @@ body {
 }
 
 .head-img img {
-    position: relative;
     width: 100%;
 }
 
@@ -527,10 +526,8 @@ h1 {
 .column {
     text-align: none;
     float: none;
-    width: 100%;
-    margin-top: 0;
-    padding: 0;
-    height: 200;
+    width: 100%; 
+    height: 300px;
 }
 
 .split {

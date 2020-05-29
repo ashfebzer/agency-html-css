@@ -1,3 +1,4 @@
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -431,8 +432,8 @@ form label {
 }
 
 .services.testimonial {
-    background-color: #343a40 ;
-    line-height: 25px;
+    background-color: #343a40;
+
     color: #fff;
 }
 
@@ -565,6 +566,11 @@ h1 {
     height: 300px;
     background-color: rgb(113, 188, 66);
 }
+
+
+/* Testimonials */
+
+
 
 
 

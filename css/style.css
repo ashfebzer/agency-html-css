@@ -52,7 +52,6 @@ body {
     background-color: white;
     margin: 0 auto;
     font-family: sans-serif, hevetica, Arial;
-    box-shadow: 12px 0 15px -4px rgba(31, 73, 125, 0.8), -12px 0 8px -4px rgba(31, 73, 125, 0.8);
 }
 
 a {
@@ -448,11 +447,20 @@ MOBILE
 @media only screen and (max-device-width: 600px) {
 
 
-    body {
+body {
         width: 100%;
     }
 
-    .container {
+.main {
+    width: 100%;
+}
+
+.services img {
+    margin: 50px;
+    margin: 0 auto;
+}
+
+.container {
     width: 100%;
     margin: 0 auto;
     }
@@ -471,23 +479,49 @@ MOBILE
 #logo p {
     font-size: 3em;
     padding-top: 3%;
+}
 
+#logo p:after {
+    content:' ';
+    display:block;
+    margin: 0 auto;
+    margin-top: 5%;
+    width: 10%;
+    border:5px solid #71BC42;
+    border-radius:4px;
 }
 
 .navmenu {
     position: relative;
     width: 100%;
-    top: 30%;
+    top: 20%;
 }
 
 .navmenu ul {
     text-align: center;
-    font-size: 2em;
+    font-size: 2.5em;
 }
 
 .head-img img {
     position: relative;
     width: 100%;
+}
+
+.row  p {
+    font-size: 2.5em;
+    margin: 30px;
+    color: #7f7f7f;
+    line-height: 50px;
+}
+
+h2 {
+    padding: 2% 0;
+    font-size: 3em;
+}
+
+h1 {
+    padding: 2% 0;
+    font-size: 4em;
 }
 
 .column {
@@ -527,6 +561,15 @@ MOBILE
     width: 100%;
     padding: 0 15px;
 }
+
+.signup {
+    padding-top: 25px;
+    text-align: center;
+    height: 300px;
+    background-color: rgb(113, 188, 66);
+}
+
+
 
 
 

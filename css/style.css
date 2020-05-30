@@ -77,11 +77,12 @@ a {
     padding-left: 20px;
 }
 
-
+@media (min-width: 1200px) and (max-width : 5000px) {
 .container {
     width: 1200px;
     margin: 0 auto;
-}    
+}  
+}  
 
 .full-width {
     background-color: #7f7f7f;
@@ -451,7 +452,7 @@ form label {
 Tablet ABOVE 600px
 ------------- */
 
-@media screen and (min-width: 600px) and (max-width: 1200px) {
+@media screen and (min-width: 600px) {
 
 .main {
     
@@ -467,10 +468,11 @@ Tablet ABOVE 600px
     margin: 0 auto;
 }
 
+@media screen and (min-width: 600px) and (max-width: 1200px) {
 .container {  
     width: 100%;
     margin: 0 auto;
-    
+}
 }
 
 @media screen and (max-width: 1920px) {

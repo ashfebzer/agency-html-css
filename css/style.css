@@ -740,11 +740,24 @@ services.testimonial h3 {
 /* PRODUCTS */
 
 .product {
+    position: relative;
     text-align: none;
     margin-top: 0;
     float: none;
     width: 100%;
     padding: 0 40px 40px 40px;
+}
+
+.product-label {
+    color: white;
+    position: absolute;
+    bottom: 40px;
+    background-color:rgba(0, 0, 0, 0.3);
+    padding: 5px;
+}
+
+.product-label p {
+    color: white;
 }
 
 .services {

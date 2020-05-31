@@ -753,7 +753,12 @@ services.testimonial h3 {
     position: absolute;
     bottom: 40px;
     background-color:rgba(0, 0, 0, 0.3);
-    padding: 5px;
+    padding: 25px 5;
+}
+
+.product-label h2 {
+    margin-top: 0;
+    padding: 0;
 }
 
 .product-label p {

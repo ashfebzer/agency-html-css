@@ -674,7 +674,14 @@ li {
     padding: 0 10%;
 }
 
+.signup input[type=email] {
+    width: 300px;
+}
 
+.signupbtn {
+    padding: 11px 60px;
+    border-radius: 5%;
+}
 
 .cont-col {
     float: none;

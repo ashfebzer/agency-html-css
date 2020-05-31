@@ -750,7 +750,6 @@ services.testimonial h3 {
 
 .product-label {
     color: white;
-    position: absolute;
     bottom: 40px;
     background-color:rgba(0, 0, 0, 0.3);
     padding: 25px 5;

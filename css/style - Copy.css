@@ -835,9 +835,9 @@ header label {
 
 /* Hamburger Menu */
 
-body > header > div > div > label {
-    /* margin: 0 40px 0 0; */
-    font-size: 25px;
+label {
+    margin: 0 40px 0 0;
+    font-size: 22px;
     line-height: 70px;
 }
 
@@ -851,7 +851,7 @@ body > header > div > div > label {
 body > header > div > div > label {
     display: block;
     cursor: pointer;
-    /* width: 26px; */
+    width: 26px;
     float: right;
 }
 
@@ -859,46 +859,7 @@ body > header > div > div > label {
     text-align: center;
     width: 100%;
     display: none;
-}
-
-.navmenu ul li a:hover {
-    color: #71BC42;
-}
-
-.navmenu .home {
-    color: white;
-    background-color: #71BC42;
-}
-
-.navmenu .home:hover {
-    background-color: white;
-}
-
-.navmenu .abt {
-    color: white;
-    background-color: #71BC42;
-}
-
-.navmenu .abt:hover {
-    background-color: white;
-}
-
-.navmenu .serv {
-    color: white;
-    background-color: #71BC42;
-}
-
-.navmenu .serv:hover {
-    background-color: white;
-}
-
-.navmenu .cnt {
-    color: white;
-    background-color: #71BC42;
-}
-
-.navmenu .cnt:hover {
-    background-color: white;
+    
 }
 
 .navmenu a {
@@ -914,4 +875,3 @@ body > header > div > div > label {
 }
 
 }
-

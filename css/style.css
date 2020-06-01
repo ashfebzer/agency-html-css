@@ -796,3 +796,17 @@ services.testimonial h3 {
 }
 
 }
+
+/*------------
+MOBILE SCREEN BELOW 320px */
+
+@media screen and (max-width:320px) {
+
+.navmenu ul {
+    line-height: 45px;
+}
+
+.navmenu {
+    top: 5%;
+}
+}

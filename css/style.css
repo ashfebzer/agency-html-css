@@ -436,6 +436,7 @@ form label {
   /* Testimonial */
 
 .services.testimonial p {
+    font-style: italic;
     line-height: 25px;
 }
 

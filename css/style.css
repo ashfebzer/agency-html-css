@@ -800,44 +800,12 @@ services.testimonial h3 {
 
 }
 
-/*------------
-MOBILE SCREEN BELOW 320px
-----------------*/
-
-@media screen and (max-width:320px) {
-
-#logo p {
-    font-size: 1em;
-    padding-top: 20%;
-}
-
-.navmenu ul {
-    line-height: 45px;
-}
-
-.navmenu {
-    top: 5%;
-}
-
-header label {
-    margin: 0 10px 0 0;
-}
-
-.signup input[type=email] {
-    width: 170px;
-}
-
-.signup {
-    height: 22em;
-}
-
-}
 
 /* Hamburger Menu */
 
 body > header > div > div > label {
     margin: 0 40px 0 0;
-    font-size: 25px;
+    font-size: 30px;
     line-height: 70px;
 }
 
@@ -914,4 +882,41 @@ body > header > div > div > label {
 }
 
 }
+
+/*------------
+MOBILE SCREEN BELOW 320px
+----------------*/
+
+@media screen and (max-width:320px) {
+
+    #logo p {
+        font-size: 1em;
+        padding-top: 20%;
+    }
+    
+    .navmenu ul {
+        line-height: 45px;
+    }
+    
+    .navmenu {
+        top: 5%;
+    }
+    
+    header label {
+        margin: 0 10px 0 0;
+    }
+    
+    .signup input[type=email] {
+        width: 170px;
+    }
+    
+    .signup {
+        height: 22em;
+    }
+    
+    body > header > div > div > label {
+        margin: 0 20px 0 0;
+    }
+    
+    }
 

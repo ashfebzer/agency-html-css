@@ -555,18 +555,18 @@ MOBILE
 
 .nav {
     width: 100%;
-    height: 200px;
+    height: 115px;
 }
 
 #logo {
-    width: 100%;
+    width: none;
     top: 30%;
     text-align: center;
 }
 
 #logo p {
-    font-size: 1.5em;
-    padding-top: 3%;
+    font-size: 1.2em;
+    padding-top: 11%;
 }
 
 #logo p:after {
@@ -596,9 +596,8 @@ h1:after {
 }
 
 .navmenu {
-    float: none;
     position: relative;
-    top: 22%;
+    top: 0;
     padding-right: 0%;
 }
 
@@ -798,7 +797,8 @@ services.testimonial h3 {
 }
 
 /*------------
-MOBILE SCREEN BELOW 320px */
+MOBILE SCREEN BELOW 320px
+----------------*/
 
 @media screen and (max-width:320px) {
 
@@ -809,4 +809,59 @@ MOBILE SCREEN BELOW 320px */
 .navmenu {
     top: 5%;
 }
+
+.signup input[type=email] {
+    width: 170px;
+}
+
+.signup {
+    height: 22em;
+}
+
+}
+
+
+/* Hamburger Menu */
+
+label {
+    margin: 0 40px 0 0;
+    font-size: 22px;
+    line-height: 70px;
+}
+
+#toggle {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+
+    
+body > header > div > div > label {
+    display: block;
+    cursor: pointer;
+    width: 26px;
+    float: right;
+}
+
+.navmenu {
+    text-align: center;
+    width: 100%;
+    display: none;
+    
+}
+
+
+
+.navmenu a {
+    
+    clear: right;
+    display: block;
+    border-bottom: 1px solid #EAEAEA ;
+}
+
+#toggle:checked + .navmenu {
+    display: block;
+    background: white;
+}
+
 }

@@ -811,16 +811,6 @@ MOBILE SCREEN BELOW 320px
     padding-top: 20%;
 }
 
-#logo p:after {
-    content: ' ';
-    display: block;
-    margin: 0 auto;
-    margin-top: 10%;
-    width: 40px;
-    border: 2px solid #71BC42;
-    border-radius: 4px;
-}
-
 .navmenu ul {
     line-height: 45px;
 }
@@ -842,7 +832,6 @@ header label {
 }
 
 }
-
 
 /* Hamburger Menu */
 
@@ -883,6 +872,14 @@ body > header > div > div > label {
 #toggle:checked + .navmenu {
     display: block;
     background: white;
+}
+
+#toggle:checked + body > header > div > div > label > span {
+    display: none;
+}
+
+#toggle:not(:checked)+ body > header > div > div > label > span {
+    display: block;
 }
 
 }

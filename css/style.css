@@ -165,6 +165,10 @@ a {
     margin: 0;
 }
 
+body > header > div > div > label {
+    display: none;
+}
+
 ul {
     padding: 0;
 }
@@ -802,12 +806,31 @@ MOBILE SCREEN BELOW 320px
 
 @media screen and (max-width:320px) {
 
+#logo p {
+    font-size: 1em;
+    padding-top: 20%;
+}
+
+#logo p:after {
+    content: ' ';
+    display: block;
+    margin: 0 auto;
+    margin-top: 10%;
+    width: 40px;
+    border: 2px solid #71BC42;
+    border-radius: 4px;
+}
+
 .navmenu ul {
     line-height: 45px;
 }
 
 .navmenu {
     top: 5%;
+}
+
+header label {
+    margin: 0 10px 0 0;
 }
 
 .signup input[type=email] {
@@ -849,8 +872,6 @@ body > header > div > div > label {
     display: none;
     
 }
-
-
 
 .navmenu a {
     
